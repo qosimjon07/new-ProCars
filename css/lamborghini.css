@@ -1,0 +1,33 @@
+.lamborghini-title {
+    max-height: 400px;
+}
+
+.rotate_65deg {
+    height: 600px;
+    width: 850px;
+    transform: rotateZ(65deg);
+}
+
+.rotate_-65deg {
+    height: 650px;
+    width: 850px;
+    position: relative;
+    left: -100px;
+    transform: rotateZ(-65deg);
+}
+
+.scale {
+    transform: scale(1.2);
+}
+
+.rotate-text {
+    max-width: 500px;
+}
+
+.rotate_-65deg2 {
+    height: 650px;
+    width: 850px;
+    position: relative;
+    left: -200px;
+    transform: rotateZ(-65deg);
+}

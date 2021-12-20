@@ -1,0 +1,105 @@
+@media screen and (max-width: 900px) {
+    .xlBlock {
+        display: hidden;
+    }
+}
+
+.grid-container {
+    display: grid;
+    gap: 5px;
+}
+
+.car-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.items {
+    overflow: hidden;
+}
+
+.items-img {
+    transition: 1s;
+}
+
+.items-img:hover {
+    transform: scale(1.1);
+}
+
+.car-box {
+    padding: 0 10px;
+    width: 300px;
+    object-fit: cover;
+    font-family: poppins;
+    box-sizing: border-box;
+}
+
+.car-box-img {
+    width: 100%;
+    height: 171px;
+    overflow: hidden;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.car-box-img__img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.2);
+}
+
+.car-box-img__img2 {
+    width: 100%;
+    height: 100%;
+}
+
+.car-name {
+    top: 160px;
+    left: 120px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.car-name2 {
+    top: 140px;
+    left: 120px;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    border: 1px solid black;
+}
+
+.car-fuel {
+    font-weight: 600;
+}
+
+.car-cost {
+    width: 100%;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border-radius: 30px;
+    text-align: center;
+    background-color: rgb(255, 166, 0);
+}
+
+.xModel-more {
+    color: white;
+    background-color: blue;
+}
+
+.bmw-video {
+    transform: scale(1.2);
+}
+
+.bmw-header-title {
+    position: absolute;
+    bottom: 5%;
+    left: 4%;
+}
+
+.mers-video {
+    transform: scale(1.2);
+}

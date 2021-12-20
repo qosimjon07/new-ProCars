@@ -1,0 +1,49 @@
+.header-bg-img {
+    width: 80%;
+}
+
+.main-video {
+    transform: scale(1.15);
+}
+
+.item-grid-test {
+    grid-column: 2/4;
+}
+
+.grid-main-container {
+    row-gap: 5px;
+    display: grid;
+}
+
+.grid-items {
+    border: 1px solid black;
+}
+
+.orbition-fonts {
+    font-family: Orbitron;
+}
+
+.color-yellow {
+    color: rgb(255, 123, 0);
+}
+
+.main-cars-titles {
+    max-height: 195px;
+    overflow: hidden;
+}
+
+.hamkor-box {
+    width: 140px;
+    height: 140px;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid black;
+}
+
+.hamkor-img {
+    width: 100%;
+    height: 100%;
+}

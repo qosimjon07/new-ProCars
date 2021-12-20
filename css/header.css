@@ -1,0 +1,108 @@
+.header {
+    color: white;
+    font-family: Poppins;
+    position: relative;
+    background-color: black;
+}
+
+.main-header-container {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.logo {
+    font-family: Orbitron;
+    font-weight: 600;
+    color: rgb(255, 166, 0);
+}
+
+.signIn:hover {
+    color: rgb(255, 166, 0);
+}
+
+.signUp {
+    background-color: rgb(255, 166, 0);
+}
+
+.header-box {
+    padding: 20px 0;
+    background: linear-gradient(0deg, rgba(25, 24, 31, 0) 10%, rgba(25, 24, 31, 0.8) 100%);
+}
+
+.padd {
+    padding: 20px 3%;
+}
+
+.img-grid {
+    object-fit: cover;
+}
+
+.img-title {
+    position: absolute;
+    top: 90px;
+    left: 25px;
+}
+
+.bmw-title {
+    font-family: Poppins;
+    font-weight: 600;
+}
+
+.header-links {
+    display: block;
+}
+
+.a_links:hover {
+    color: rgb(255, 166, 0);
+}
+
+.header-menu {
+    display: none;
+}
+
+.main-header-title {
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+}
+
+.main-header-title__text {
+    color: white;
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000;
+}
+
+@media screen and (max-width: 730px) {
+    .img-title {
+        top: 30px;
+        left: 10px;
+    }
+    .header-box {
+        padding: 5px 0;
+    }
+    .main-header-title {
+        bottom: 3%;
+    }
+}
+
+@media screen and (max-width: 970px) {
+    .header-links {
+        display: none;
+    }
+    .header-box {
+        padding: 10px 0;
+    }
+    .header-menu {
+        display: block;
+    }
+    .img-title {
+        top: 50px;
+        left: 15px;
+    }
+    .main-header-video {
+        height: auto;
+    }
+    .main-header-title {
+        bottom: 5%;
+    }
+}

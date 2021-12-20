@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <title>ProCars</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header class=" header px-2 relative pb-2">
+        <div class="main-header-container">
+            <div class="header__inner relative">
+                <div class="header-box padd w-full flex justify-between items-center absolute z-10">
+                    <div>
+                        <a class="logo md:text-2xl" href="../html/index.html">ProCars</a>
+                    </div>
+                    <div class="header-links">
+                        <ul class="flex space-x-8">
+                            <li><a class="a_links font-semibold" href="../html/lamborghini.html">Lamborghini</a></li>
+                            <li><a class="a_links font-semibold" href="../html/bmw.html">BWM cars</a></li>
+                            <li><a class="a_links font-semibold" href="../html/mers.html">MERS cars</a></li>
+                            <li><a class="a_links font-semibold" href="../html/rolls-royse.html">Rolls Royse</a></li>
+                            <li><a class="a_links font-semibold" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center">
+                        <ul class="flex space-x-2 md:space-x-3 items-center">
+                            <li><a href="#" class="signIn font-semibold">Sign in</a></li>
+                            <li><a href="#" class="signUp px-5 py-2 text-white font-semibold rounded-xl hidden md:block">Sign up</a></li>
+                        </ul>
+                        <div class="">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 header-menu ml-1 md:ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-header-video w-full h-screen overflow-hidden">
+                    <video class="bmw-video w-full h-full" src="../img/bmw_m8.mp4" autoplay muted></video>
+                </div>
+                <div class="main-header-title space-y-2 md:space-y-3">
+                    <p class="main-header-title__text text-lg md:text-2xl lg:text-4xl font-medium leading-5">You are <br> deserved to the best</p>
+                    <p class="main-header-title__text text-xl md:text-4xl lg:text-6xl font-semibold">BMW M8 Gran Coupe</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="">
+        <div class="container">
+            <p class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium my-3 md:my-4 lg:my-6">Latest BMW models</p>
+            <div class="grid-container grid-cols-1 lg:grid-cols-2">
+                <div class="items relative">
+                    <div class="w-full h-full overflow-hidden">
+                        <video class="w-full h-full" src="../img/bmw_x6m.mp4" type="video/mp4" autoplay muted></video>
+                    </div>
+                    <div class="bmw-header-title">
+                        <p class="main-header-title__text text-xl md:text-2xl lg:text-3xl font-medium">BMW X6 M models</p>
+                    </div>
+                </div>
+                <div class="items relative">
+                    <div class="w-full h-full overflow-hidden">
+                        <video class="w-full h-full" src="../img/bmw_x5m.mp4" type="video/mp4" autoplay muted></video>
+                    </div>
+                    <div class="bmw-header-title">
+                        <p class="main-header-title__text text-xl md:text-2xl lg:text-3xl font-medium">BMW X5 M models</p>
+                    </div>
+                </div>
+                <div class="items relative">
+                    <div class="w-full h-full overflow-hidden">
+                        <video class="w-full h-full" src="../img/bmw_z4_m40i.mp4" type="video/mp4" autoplay muted></video>
+                    </div>
+                    <div class="bmw-header-title">
+                        <p class="main-header-title__text text-xl md:text-2xl lg:text-3xl font-medium">BMW Z4 M40i models</p>
+                    </div>
+                </div>
+                <div class="items relative">
+                    <div class="w-full h-full overflow-hidden">
+                        <video class="w-full h-full" src="../img/BMW X6 - Larte.mp4" type="video/mp4" autoplay muted></video>
+                    </div>
+                    <div class="bmw-header-title">
+                        <p class="main-header-title__text text-xl md:text-2xl lg:text-3xl font-medium">BMW X6 Larte</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <p class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium my-3 md:my-4 lg:my-6">Model X</p>
+                <div class="car-container">
+                    <div class="car-box relative mx-auto">
+                        <div class="car-box-img">
+                            <img src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6GDP10tLhu1XzWVo7puMLWFmdkAj5DOPcjV%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giA8NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVs5Wh1DMztIA1eqVYDaf4YQjmztYRSDXR67aftxdYraw1RSfWQt4S%25VxdSeZfq6uzWQdjcFNt3aeZQ6KI01XRjcZwBvLmrx6Kc%252GyF4WwBKup9C5Fe%252B3ibvRIjup2XHhDbv63iprJ8mDGwXHi4Tmtd9%25rJHFl5t3ou4TJIs8vSL3FlTv0PGeyXIslGAMwMCrv0s9ODGTE4GA0ogS8hNF9OALUdcnkIogOybQCunvLUgChZqA5GybUEqc6D89ChbNmKMVPoEqhk7BDDMLNmqn12cjDyk7m5VnJbYCn178zB9MtE5V1Pa29yfN8zVMRpokSkPazDxTY7dnMRaYWl%25TQ5DxRtesCZZ8YWxfjtzzcPteWS6fgoKMfjedwOCNBDS6jQ%25gEy2Ydw6ZuUIPptQ%25wc3llFifZu%25KXsnDHSc3uBr0FvJdKX324AIGTQBrXpFOvWlZ24riIg5kscpF4HvUwU0KiIFJG8frABHvIT9hqlO2JGvloqmWgpT9GsLD6jUilo90yYw0bHsLoACR1%25hJ0yLOEjgmqTACygNLa6mlOECUkait7sgNEbnbiy10UkNh56H4VAfke3x8NHC4wnfDyeLAEmrqIbgBj"
+                                alt="mers x" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">X6</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 32 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto hidden md:block">
+                        <div class="car-box-img">
+                            <img src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQJsd10tLhu1XzWVo7puMLWFmdkAj5DOPcQV%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74g37WNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVs4Wh1DMztIAzeqVYDafM3ajmztYRSDXz67aftxdYrfw1RSfWQthj%25VxdSeZ4EYuzWQdjcFs73aeZQ6KIoqXRjcZwBvL4rx6Kc%252Gyn4WwBKupUIaFe%252B3ibMUIjup2XH5qMv63iprJqYSGwXHi4TnYu9%25rJHFl5Ifou4TJIs8vWL3FlTv0P6PyXIslGAtnUCrv0s9OfQ6E4GA0ogSZhNF9OALUdcnkIogOybQCunvLUgChZq15GybUEqcmO89ChbNmKwYPoEqhk7BDDMLNmqn12cjDyk7m5VnJbYCn178zBGPtE5V1Pa29yfN8zVMRpoMSkPazDxTY7dnMRaYWl2OQ5DxRtesCZZ8YWxfjtzzcPteWS6fgoKMfjedwSkYBDS6jQ%25gEk2Ydw6ZuUNCptQ%25wc3bpjifZu%25KXsnDHSc3uBr0FvJdKX324AIxTQBrXpFOnNlZ24riIg6gscpF4Hv5tX0KiIFJGbhTABHvIT9hqxO2JGvloMjegpT9GsLx0bUilo90yYw0bHsLoACR1%25hJ0yLOEozjqTACygNSd4mlOECUkeE87sYEx%25anCpLXjNYPox9syh3b4gAcW"
+                                alt="mers x" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">X5</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 40 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto hidden lg:block">
+                        <div class="car-box-img">
+                            <img src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfQdQl10tLhu1XzWVo7puMLWFmdkAj5DOPccf%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giLhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVDKWh1DMztIA1eqVYDafz23jmztYRSDXR67aftxdYrIw1RSfWQt4S%25VxdSeZfq6uzWQdjcFNt3aeZQ6KI01XRjcZwBvLmrx6Kc%252GyF4WwBKup9C5Fe%252B3ibMEIjup2XHBpmv63iprJqYSGwXHi4TnYu9%25rJHFl5Ifou4TJIs8vWL3FlTv0PnvyXIslGAMwMCrv0s9OfQ6E4GA0ogSZkNF9OALUdy%25kIogOybQh0nvLUgChZnA5GybUEqc5289ChbNmKwYPoEqhk7BDzMLNmqn12cjDyk7m5VnJbYCn178zBZgtE5V1Pa29lfN8zVMRJDmSkPazDxTLddnMRaYWD0vQ5DxRteYAcZ8YWxfj0LCcPteWS6AyoKMfjedwHC5BDS6jQ%25J3r2Ydw6ZuTXVptQ%25wc3lCLifZu%25KXsxsHSc3uBrE5TJdKX324NM%25TQBrXpFOgilZ24riIgUzscpF4Hv5xR0KiIFJG7bWABHvIT91lgO2JGvloRsUgpT9GsLxmEUilo90yG1WbHsLoAC1BMhJPLzj1EoKG%25xyPnvzIJ9gwO30lda"
+                                alt="mers x" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">X7</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 52 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto">
+                        <div class="car-box-img">
+                            <img src="https://cosystatic.bmwgroup.com/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfXGPb10tLhu1XzWVo7puMLWFmdkAj5DOP7tFkZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gijhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVKwWh1DMztioCeqVYDafHL2jmztYRSFxy67aftxdIfMw1RSfWQorK%25VxdSeZLjtuzWQdjcyUh3aeZQ6KCvSXRjcZwBEpIrx6Kc%252Nr%254WwBKupkb8Fe%252B3inhOIjup2XH5D10UkNh5EWkVAbnkq8Ne3zOh5nmPklcagq857MjH0RUmP81D6BAxb7MPVYwfdWh1DMzt%25HAeqVYDafu4AjmztYRS3FZ67aftxdIicw1RSfWQovu%25VxdSeZ40GuzWQdjcFbX3aeZQ6KC2RXRjcZwBvgLrx6Kc%252yKe4WwBKupCouFe%252B3iKarIjup2XH5rcv63iprJ8OWGwgiEPyTpRBYnHZ0KEcw2FD4fXu1N"
+                                alt="mers x" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">iX</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Full Electricity</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 55 000 $</p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-center my-8">
+                    <button class="xModel-more md:text-xl py-1 md:py-2 px-10 md:px-16 rounded-lg font-semibold"><a href="../html/bmwXmore.html">More X models</a></button>
+                </div>
+            </div>
+            <div>
+                <p class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium my-3 md:my-4 lg:my-6">Model M</p>
+                <div class="car-container">
+                    <div class="car-box relative mx-auto">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOPitFBZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gSQNNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV9FWh1DMztIVGeqVYDafHS6jmztYRSJOM67aftxdT%25hw1RSfWQluC%25VxdSeZsNEuzWQdjc0k13aeZQ6KAneXRjcZwBLv5rx6Kc%252yu84WwBKupCVTFe%252B3iEzxIjup2XH5rGv63iprJ8iKGwXHi4TPzu9%25rJHFlMRLou4TJIsDxDL3FlTv0YhiyXIslGAtqjCrv0s9OfmuE4GA0ogSmfNF9OALUdtzkIogOybAgrnvLUgChO%2525GybUEqgtE89ChbNmUfQPoEqhk7bIUMLNmqn1hvnDyk7m5VqGoYCn178zm9MtE5V1PaZlqfN8zVMRcvySkPazDxK9QdnMRaYWB4EQ5DxRte2ErZ8YWxfjpGIcPteWS6ilEKMfjedwHVHBDS6jQ%25dhx2Ydw6ZuQq4ptQ%25wc3ZmiifZu%25KXcnDHSc3uBrK66JdKX324B1TTQBrXpF2YclZyrU1OIXYuaq4y9%25UwZ3Hzix2K8b"
+                                alt="bmw m" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">M2</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">M240i</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 32 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto hidden md:block">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf0jsd10tLhu1XzWVo7puMLWFmdkAj5DOP5tpsZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74giU2NF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYV2KWh1DMztzA9eqVYDafa66jmztYRSJdw67aftxdT%25hw1RSfWQluC%25VxdSeZsNEuzWQdjc0kj3aeZQ6KAnVXRjcZwBLnUrx6Kc%252yu84WwBKupk3IFe%252B3in2ZIjup2XH5psv63iprJ8VaGwXHi4TPzu9%25rJHFlM2oou4TJIsDxyL3FlTv0YheyXIslGAtq%25Crv0s9OfqtE4GA0ogS%25oNF9OALUdtzkIogOybAgrnvLUgChOq45GybUEqgtE89ChbNmUfKPoEqhk7bI5MLNmqn1SHUDyk7m5VdFtYCn178zQZPtE5V1PaZcyfN8zVMRcKlSkPazDxKrodnMRaYWBCXQ5DxRte2vFZ8YWxfjpTCcPteWS6iliKMfjedwHVxBDS6jQ%25dhq2Ydw6ZuQNPptQ%25wc3ZeeifZu%25KXcmHHSc3uBrKMQJdKX324BkDTQBrXpFXL9lZ24riICLRscC4bVgvrt3RmFCoub%25cXJaHWpBPh"
+                                alt="bmw m" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">M2</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">M4 Competition</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 40 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto hidden lg:block">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOPEtpmZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZLNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVsaWh1DMztIupeqVYDafaiojmztYRSJdw67aftxdTlkw1RSfWQluq%25VxdSeZs3EuzWQdjc0kN3aeZQ6KAnVXRjcZwBLv5rx6Kc%252yu84WwBKupC7JFe%252B3iEzxIjup2XH5rGv63iprJ8iKGwXHi4TPHA9%25rJHFlMa3ou4TJIsDxyL3FlTv0YheyXIslGAtq%25Crv0s9Of8zE4GA0ogSmfNF9OALUdWpkIogOybQfsnvLUgChZSR5GybUEqgbF89ChbNmUh%25PoEqhk7b1DMLNmqn1hdnDyk7m5VqQ2YCn178zmZ1tE5V1Pa7cHfN8zVMR1L7SkPazDxVytdnMRaYWBA1Q5DxRte2oNZ8YWxfjpyKcPteWS6iHdKMfjedwHJ8BDS6jQ%25JTb2Ydw6ZuToPptQ%25wc3lLJifZu%25KXsEyHSc3uBr0UPJdKX324AeATQBrXpF2z%25lZ24riIpasscpF4HviRH0KiIFJGHXXABHvIT9JxOO2JGvloTQigpnG7xqLvQFjz9nE47rpI0eswTHt1"
+                                alt="bmw m" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">M4</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">M440i</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 52 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfFdVw10tLhu1XzWVo7puMLWFmdkAj5DOP45V%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gAThNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpzaWh1DMztIA1eqVYDafH6ojmztYRSJyF67aftxdIXCw1RSfWQveE%25VxdSeZL4buzWQdjcyN33aeZQ6KCkgXRjcZwBEhmrx6Kc%252Nqz4WwBKupkHaFe%252B3inJIIjup2XH5TWv63iprJ8vrGwXHi4TPby9%25rJHFlM1tou4TJIsDVEL3FlTv0YCayXIslGAtEUCrv0s9OfDhE4GA0ogSYVNF9OALU0llkIogOybADynvLUgChOYU5GybUEqgtc89ChbNmUFnPoEqhk7ffaMLNmqn1SHUDyk7m5VdQ5YCn178zQZPtE5V1PaZ3GfN8zVMRcXySkPazDxKe6dnMRaYWBjXQ5DxRte2JyZ8YWxfjpTKcPteWS6fUaKMfjedwSbBBDS6jQ%25dE82Ydw6ZuO8pptvwsbT365emO%25v4WsxtjKqc1QSE0"
+                                alt="bmw m" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">M7</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Full Electricity</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">M760Li</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 55 000 $</p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-center my-8">
+                    <button class="xModel-more md:text-xl py-1 md:py-2 px-10 md:px-16 rounded-lg font-semibold"><a href="../html/bmwMmore.html">More M models</a></button>
+                </div>
+            </div>
+            <div>
+                <p class="text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-medium my-3 md:my-4 lg:my-6">Model Z and i</p>
+                <div class="car-container">
+                    <div class="car-box relative mx-auto">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfXGPb10tLhu1XzWVo7puMLWFmdkAj5DOP7tFkZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gijhNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYVKwWh1DMztioCeqVYDafHL2jmztYRSFxy67aftxdIfMw1RSfWQorK%25VxdSeZLjtuzWQdjcyUh3aeZQ6KCvSXRjcZwBEpIrx6Kc%252Nr%254WwBKupkb8Fe%252B3inhOIjup2XH5D10UkNh5EWkVAbnkq8Ne3zOh5nmPklcagq857MjH0RUmP81D6BAxb7MPVYwfdWh1DMzt%25HAeqVYDafu4AjmztYRS3FZ67aftxdIicw1RSfWQovu%25VxdSeZ40GuzWQdjcFbX3aeZQ6KC2RXRjcZwBvgLrx6Kc%252yKe4WwBKupCouFe%252B3iKarIjup2XH5rcv63iprJ8OWGwgiEPyTpRBYnHZ0KEcw2FD4fXu1N"
+                                alt="bmw i" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">iX</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Full Electricity</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">iX</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 32 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto hidden md:block">
+                        <div class="car-box-img">
+                            <img src="https://www.bmw.ru/content/dam/bmw/common/all-models/z-series/roadster/2018/navigation/bmw-zseries-z4-modelfinder-stage2-890x501.png" alt="bmw i" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">Z4</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Benzin</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">Z4 Roadster</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 46 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto hidden lg:block">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYf6JZg10tLhu1XzWVo7puMLWFmdkAj5DOP5tpFZ8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gtZLNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYXw9Wh1DMztr9JeqVYDaf4RLjmztYRSG3O67aftxd9WMw1RSfWQoeu%25VxdSeZLdYuzWQdjcyUR3aeZQ6KChrXRjcZwBETSrx6Kc%252Nl74WwBKupksaFe%252B3iKovIjup2XHBpxv63iprJ2TWGwXHi4TCze9%25rJHFlERLou4TJIsFfpL3FlTv0ISUyXIslGAvdCCrv0s9OGJJE4GA0og9QNNF9OALUxWpkIogOybWu0nvLUgChe2B5GybUEqjpI89ChbNm6iCPoEqhk7ZSLMLNmqn1cI9Dyk7m5VpQ%25YCn178zieptE5V1PaH2kfN8zVMRJpuSkPazDxTA6dnMRaYWz2YQ5DxRteapDZ8YWxfjRiscPteWS6xHeKMfjedwWJOBDS6jQ%25e5W2Ydw6Zuj8KptQ%25wc3lscifZu%25KXs0BHSc3uBr0AtJdKX324AOQTQBrXpFOgVlZ24riIgkSscpF4HvUnO0KiIFJGbdkABHvIT9hMdO2JGvloqVdgpT9GsLmzbUilo90yWc0bHsLoACRN4hJPLzj1EoKG%25xyPnvzIJ9gwO30lda"
+                                alt="bmw i" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">i4</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Full Electricity</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">i4 M50</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 52 000 $</p>
+                    </div>
+                    <div class="car-box relative mx-auto">
+                        <div class="car-box-img">
+                            <img src="https://prod.cosy.bmw.cloud/bmwweb/cosySec?COSY-EU-100-7331cqgv2Z7d%25i02uCaY3MuO2kOHUtWPfbYfFdVw10tLhu1XzWVo7puMLWFmdkAj5DOP45V%25Z8XgY1nTNIowJ4HO3zkyXq%25sGM8snGhMQSk%2508Xc9Vo74gAThNF1VgxNJ0%25ls2oub5imC2yRCzXeTt%25ViPRKVZVYpzaWh1DMztIA1eqVYDafH6ojmztYRSJyF67aftxdIXCw1RSfWQveE%25VxdSeZL4buzWQdjcyN33aeZQ6KCkgXRjcZwBEhmrx6Kc%252Nqz4WwBKupkHaFe%252B3inJIIjup2XH5TWv63iprJ8vrGwXHi4TPby9%25rJHFlM1tou4TJIsDVEL3FlTv0YCayXIslGAtEUCrv0s9OfDhE4GA0ogSYVNF9OALU0llkIogOybADynvLUgChOYU5GybUEqgtc89ChbNmUFnPoEqhk7ffaMLNmqn1SHUDyk7m5VdQ5YCn178zQZPtE5V1PaZ3GfN8zVMRcXySkPazDxKe6dnMRaYWBjXQ5DxRte2JyZ8YWxfjpTKcPteWS6fUaKMfjedwSbBBDS6jQ%25dE82Ydw6ZuO8pptvwsbT365emO%25v4WsxtjKqc1QSE0"
+                                alt="bmw i" class="car-box-img__img">
+                        </div>
+                        <div class="car-name bg-white rounded-full flex justify-center items-center mx-auto">
+                            <p class="font-semibold">M7</p>
+                        </div>
+                        <hr class="mt-5">
+                        <p class="car-fuel mt-10">Fuel: <i class="ml-1">Full Electricity</i></p>
+                        <p class="car-fuel">Model: <i class="ml-2">M760Li</i></p>
+                        <p class="my-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta, non.</p>
+                        <p class="car-cost py-1 mb-5">Price 55 000 $</p>
+                    </div>
+                </div>
+                <div class="w-full flex justify-center my-8">
+                    <button class="xModel-more md:text-xl py-1 md:py-2 px-10 md:px-16 rounded-lg font-semibold"><a href="../html/bmwZmore.html">More Z and i models</a></button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="px-2">
+        <div class="container">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                <div class="space-y-5 mb-5">
+                    <!-- <img class="footer-logo rounded-xl" src="../img/ProCars logo.jpg" alt=""> -->
+                    <div>
+                        <p class="footer-title">About us</p>
+                        <p>We have only the best cars</p>
+                    </div>
+                    <div>
+                        <div class="footer-title">Contact us</div>
+                        <div class="space-y-2">
+                            <div class="flex space-x-2 items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <span>+ 998 97 896 55 66</span>
+                            </div>
+                            <div class="flex space-x-2 items-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span>ProCarsemail.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-5">
+                    <p class="footer-title">Information</p>
+                    <ul class="space-y-2">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">More Search</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Events</a></li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <p class="footer-title">Helpfull Links</p>
+                    <ul class="space-y-2">
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Supports</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="mb-5">
+                    <p class="footer-title">Helpfull Links</p>
+                    <div class="space-y-5">
+                        <button class="footer-mail-button flex items-center space-x-3 rounded-md">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                            </svg>
+                            <span>Enter your email</span>
+                        </button>
+                        <button class="footer-sub-button rounded-md">Subcribe</button>
+                    </div>
+                </div>
+            </div>
+            <hr class="mb-6">
+            <div class="flex justify-center">
+                <div class="footer-icon-box space-x-4 justify-center">
+                    <a href="#"><i class="footer-icon ri-google-fill text-white bg-yellow-500 rounded-full p-2 text-2xl"></i></a>
+                    <a href="#"><i class="footer-icon ri-twitter-fill text-white bg-yellow-500 rounded-full p-2 text-2xl"></i></a>
+                    <a href="#"><i class="footer-icon ri-instagram-line text-white bg-yellow-500 rounded-full p-2 text-2xl"></i></a>
+                    <a href="#"><i class="footer-icon ri-telegram-line text-white bg-yellow-500 rounded-full p-2 text-2xl"></i></a>
+                    <a href="#"><i class="footer-icon ri-apple-fill text-white bg-yellow-500 rounded-full p-2 text-2xl"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
