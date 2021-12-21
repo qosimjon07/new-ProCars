@@ -11,6 +11,10 @@
     padding: 0;
 }
 
+.header-menu-onclick {
+    cursor: pointer;
+}
+
 .logo {
     font-family: Orbitron;
     font-weight: 600;
@@ -78,7 +82,7 @@
         left: 10px;
     }
     .header-box {
-        padding: 5px 0;
+        padding: 5px 5px;
     }
     .main-header-title {
         bottom: 3%;
@@ -90,7 +94,7 @@
         display: none;
     }
     .header-box {
-        padding: 10px 0;
+        padding: 10px 5px;
     }
     .header-menu {
         display: block;
