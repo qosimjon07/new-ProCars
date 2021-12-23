@@ -1,0 +1,19 @@
+.clickMenu {
+    background-color: white;
+}
+
+.menu-car {
+    width: 150px;
+    height: 150px;
+    padding-top: 10px;
+    border-radius: 13px;
+    border: 1px solid black;
+}
+
+.menu-car-inner {
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+}

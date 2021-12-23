@@ -20,8 +20,8 @@
 </head>
 
 <body>
-    <header class=" header px-2 relative pb-2">
-        <div class="main-header-container">
+    <header class="header relative">
+        <div class="main-header-container px-2 pb-2">
             <div class="header__inner relative">
                 <div class="header-box padd w-full flex justify-between items-center absolute z-10">
                     <div>
@@ -38,14 +38,14 @@
                     </div>
                     <div class="flex items-center">
                         <ul class="flex space-x-2 md:space-x-3 items-center">
-                            <li><a href="#" class="signIn font-semibold">Sign in</a></li>
-                            <li><a href="#" class="signUp px-2 md:px-3 py-1 text-white font-semibold rounded-xl hidden md:block">Sign up</a></li>
+                            <li><a href="#" class="signIn font-medium">Sign in</a></li>
+                            <li><a href="#" class="signUp px-2 md:px-3 py-1 text-white font-medium rounded-xl block">Sign up</a></li>
                         </ul>
-                        <div id="rolls-menuClick" class="header-menu-onclick">
+                        <button id="index-menuClick" class="header-menu-onclick">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 header-menu ml-1 md:ml-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                             </svg>
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div class="main-header-video w-full h-screen overflow-hidden">
@@ -53,8 +53,54 @@
                 </div>
                 <div class="main-header-title space-y-2 md:space-y-3">
                     <p class="main-header-title__text text-lg md:text-2xl lg:text-4xl font-medium leading-5">You are <br> deserved to the best</p>
-                    <p class="main-header-title__text text-xl md:text-4xl lg:text-6xl font-semibold">Rolls Royce Cullinan</p>
+                    <p class="main-header-title__text text-xl md:text-4xl lg:text-6xl font-semibold hidden md:block">Rolls Royce Cullinan</p>
                 </div>
+            </div>
+        </div>
+        <div class="clickMenu hidden w-full min-h-screen fixed inset-0 z-10 text-black">
+            <div class="flex items-center justify-between px-2 py-3 bg-black text-white">
+                <a class="logo md:text-2xl" href="../html/index.html">
+                    <p class="text-2xl">ProCars</p>
+                </a>
+                <button class="btnClose bg-red-500 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                    </svg> 
+                </button>
+            </div>
+            <div class="gap-5 p-5 text-xl bg-white flex justify-center flex-wrap">
+                <a class="menu-car flex items-center justify-around bg-gray-200" href="../html/lamborghini.html">
+                    <div class="flex items-center flex-col">
+                        <div class="menu-car-inner overflow-hidden bg-white rounded">
+                            <img class="w-full h-full" src="../img/lamborghini logo.jpg" alt="lamborghini logo">
+                        </div>
+                        <p class="font-medium">Lamborghini</p>
+                    </div>
+                </a>
+                <a class="menu-car flex items-center justify-center bg-gray-200" href="../html/bmw.html">
+                    <div class="flex items-center flex-col">
+                        <div class="menu-car-inner overflow-hidden bg-white rounded">
+                            <img class="w-full h-full" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/2048px-BMW.svg.png" alt="bmw logo">
+                        </div>
+                        <p class="font-medium">BMW</p>
+                    </div>
+                </a>
+                <a class="menu-car flex items-center justify-center bg-gray-200" href="../html/mers.html">
+                    <div class="flex items-center flex-col">
+                        <div class="menu-car-inner overflow-hidden bg-white rounded">
+                            <img class="w-full h-full" src="https://i.pinimg.com/originals/03/e1/b0/03e1b0207489ad32d10b9a860ffc6623.png" alt="mers logo">
+                        </div>
+                        <p class="font-medium">Mercedes</p>
+                    </div>
+                </a>
+                <a class="menu-car flex items-center justify-center bg-gray-200" href="../html/rolls-royse.html">
+                    <div class="flex items-center flex-col">
+                        <div class="menu-car-inner overflow-hidden bg-white rounded">
+                            <img class="w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR97y2Xc7CJVgjp84sgZQ2APorlWcMgA2ZbXsX9TkFuRkN7J-P1UJ7TX6m4Z3yawFZs0S8&usqp=CAU" alt="rolls logo">
+                        </div>
+                        <p class="font-medium">Rolls-Royce</p>
+                    </div>
+                </a>
             </div>
         </div>
     </header>
