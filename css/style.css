@@ -1,3 +1,4 @@
+@import url('tailwind.css');
 @import url('main.js');
 @import url('menu.css');
 @import url('swiper.js');
@@ -40,4 +41,20 @@ a {
 
 .kaushan-fonts {
     font-family: Kaushan Script;
+}
+
+.text-nuqta-5 {
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.text-nuqta-7 {
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }

@@ -29,12 +29,9 @@
     color: rgb(255, 166, 0);
 }
 
-.signIn:hover {
+.signIn {
     color: rgb(255, 166, 0);
-}
-
-.signUp {
-    background-color: rgb(255, 166, 0);
+    cursor: pointer;
 }
 
 .header-box {
@@ -84,7 +81,7 @@
     text-shadow: 0 0 3px #000000, 0 0 3px #000000;
 }
 
-@media screen and (max-width: 730px) {
+@media (max-width: 730px) {
     .img-title {
         top: 30px;
         left: 10px;
@@ -95,17 +92,20 @@
     .main-header-title {
         bottom: 3%;
     }
+    .logo {
+        font-size: 20px;
+    }
 }
 
-@media screen and (max-width: 970px) {
+@media (max-width: 800px) {
     .header-links {
         display: none;
     }
-    .header-box {
-        padding: 10px 5px;
-    }
     .header-menu {
         display: block;
+    }
+    .header-box {
+        padding: 10px 5px;
     }
     .img-title {
         top: 50px;
@@ -117,7 +117,6 @@
     .main-header-title {
         bottom: 5%;
     }
-    .signUp {
-        display: none;
-    }
 }
+
+@media screen and (max-width: 970px) {}
